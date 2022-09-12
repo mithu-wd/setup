@@ -38,6 +38,11 @@ sleep 4
 flutter
 wait
 clear
+figlet -c installing linux build tools
+sleep 4
+sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
+wait
+clear
 figlet -c installing android-studio
 sleep 4
 sudo snap install andrdoid-studio --classic
